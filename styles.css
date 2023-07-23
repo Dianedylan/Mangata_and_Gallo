@@ -2,8 +2,14 @@ body{
     margin: 0;
     padding: 0;
 }
+.container{
+    display:flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
 #banner{
-    display: inline-grid;
+    display: flex;
+    flex: 1 1 auto;
   /* box-sizing: border-box;
    background-image: url(images/Dbanner2.jpg);
     background-size: 1000px 200px;
@@ -21,10 +27,12 @@ margin: 7px 0 0 10px;
 }
 section{
     display: flex;
+    flex: 1 1 auto;
     flex-direction: row;
 }
 header{
     display: flex;
+    flex: 1 1 auto;
     flex-direction: row;
     flex-wrap: wrap;
     background-color: rgb(32, 178, 170);
@@ -76,7 +84,7 @@ input{
 }
 #blog article{
     display: flex;
-    flex:1;
+    flex: 1 1 auto;
     margin: 40px 0 10px 0;
     flex-wrap: wrap;
 }
@@ -98,6 +106,7 @@ input{
 
 #second {
     display: flex;
+    flex: 1 1 auto;
     flex-direction: row;
     margin: 100px 0 100px 0;
    
@@ -158,6 +167,7 @@ i{
 footer{
     margin-top: 40px;
     display: inline-flex;
+    flex: 1 1 auto;
     flex-wrap: wrap;
     background-color: lightseagreen;
     color: white;
